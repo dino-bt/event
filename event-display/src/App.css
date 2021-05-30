@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  list-style: none;
+  color: black;
+}
+
+.todo li {
+  flex: 1;
+}
+
+
+
+
+
+.fall {
+  transform: translateY(10rem) rotateZ(20deg);
+  opacity: 0;
+}
+
+.Navbar {
+  background-color: black;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: x-large;
+}
+
+.Login {
+  width: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.Register {
+  width: 150px;
+  color: white;
+}
+
+.todo-container {
+  margin-left: 90px;
+}
+
+
+.cardMain {
+  background-color: #706e6e;
+}
+
+.logOut {
+  color: #ffffff;
+}
+
+/*---------------------Login--------------------*/
+.PostUser {
+  font-family: "Poppins", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.cardHeaderText {
+  width: 1000px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-left: 125px;
+}
+
+.emailDiv {
+  width: 300px;
+}
+.buttonDiv {
+  padding: 20px;
+}
+.registerDiv {
+  width: 300px;
+}
+
+.cardRegister {
+  margin-top: 250px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+  margin-left: 75px;
+  width: 1100px;
+}
+
+/*---------------------Home/Register--------------------*/
+
+.testimonialCards {
+  margin-top: 50px;
+  display: flex;
+}
+
+.registerHeader {
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cardImageHeight {
+  height: 60%;
+}
+
+.cardBodyHeight {
+  font-size: medium;
+  height: 5px;
+}
+.U2 {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 500px;
+}
+.bonJovi {
+  margin-left: 40px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 500px;
+}
+.pink {
+  margin-left: 40px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 500px;
+}
+
+.cardRegister {
+  margin-top: 50px;
+}
+
+.createRegister {
+  background-color: black;
+  width: 300px;
+}
+
+/*---Media Queries ------*/
+
+@media screen and (max-width:768px){
+
+ .PostUser {
+   width: 500px;
+ }
+
+ .PostUser .frontPic{
+   width: 500px;
+ }
+
+  .email{
+    margin-top: 20px ;
+    
+  }
+  .buttonDiv .createRegister{
+    width: 200px;
+  }
+ 
+  .testimonialCards {
+    
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    margin-top: 100px;
+   
+   
+    }
+
+    .U2 {
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      height: 500px;
+      
+    }
+    .bonJovi {
+      
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      height: 500px;
+      margin-left: 0%;
+      margin-top: 100px;
+      
+    }
+    .pink {
+      
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+      height: 600px;
+      margin-left: 0%;
+      margin-top: 100px;
+      
+    }
+    .registerForm{
+      background-color: black;
+      width: 300px;
+      margin-left: 0%;
+      display: flex;
+      text-align: center;
+      margin-right: 200px;
+      background-color: white;
+      flex-direction: column;
+      
+
+     
+    }
+
+.cardRegister{
+  width: 300px;
+  
+}
+
+   
+  
+    .cardHeaderText{
+
+      width: 300px;
+      margin-left: 15%;
+    }
+
+    .divFormPost{
+      width: 300px;
+      
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+
+
+
+    }
+    .divFormPost .divHeaderText {
+  margin-left: 200px;
+  margin-top:20px ;
+}
+
+.divFormPost .divBodyText{
+  margin-left: 200px;
+  margin-top:20px ;
+}
+
+.todo-container .todo .eventDisplay {
+  width: 400px;
+  margin-left:0% ;
+  
+
+
+}
+
+.updateForm  {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  
+
+
+}
+
+ .updateHeadertext {
+  margin-left: 125px;
+  margin-top: 30px;
+
+}
+
+.updateBodyText{
+  margin-left: 125px;
+  margin-top: 30px;
+}
+    
+
+
+}
+/*-------------------- FRONT ---------------------------------------*/
+.upcomingTitle {
+  margin-top: 50px;
+  font-size: xx-large;
+}
+
+.frontPic {
+  height: 400px;
+  width: 1100px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+/*----------------------Form register login --------------------------------------*/
+.divFormPost {
+  margin-right: 100px;
+}
+
+form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input,
+form button {
+  border: none;
+  background: rgb(242, 242, 244);
+}
+form button {
+  border: solid black;
+  height: 40px;
+
+  color: #ffffff;
+  background: #3344e4;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background: #3720cd;
+  color: white;
+}
+
+.divHeaderText {
+  width: 300px;
+  margin-left: 100px;
+}
+
+.divBodyText {
+  width: 300px;
+}
+
+/*-------------------- Event Display/Todo ---------------------------------------*/
+
+.eventDisplay {
+  width: 700px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.registerCarousel {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.updateHeadertext {
+  width: 300px;
+}
+.updateBodytext {
+  width: 300px;
+  margin-left: 100px;
+}
+
+.trash {
+  background-color: rgb(223, 54, 54);
+  padding: 5px;
+  
+}
