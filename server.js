@@ -78,6 +78,12 @@ app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
 
-if(process.env.NODE_ENV === "production"){
-  app.use(express.static("event-display/build"))
+
+
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "event-display/build")));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "event-display", "build", "index.html"));
+  });
 }

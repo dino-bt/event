@@ -70,9 +70,11 @@
 }
 
 .cardHeaderText {
-  width: 1000px;
+  width: 100%;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  margin-left: 125px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .emailDiv {
@@ -89,8 +91,8 @@
   margin-top: 250px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 
-  margin-left: 75px;
-  width: 1100px;
+  
+  
 }
 
 /*---------------------Home/Register--------------------*/
@@ -98,6 +100,9 @@
 .testimonialCards {
   margin-top: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .registerHeader {
@@ -116,21 +121,27 @@
 }
 .U2 {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  width: 500px;
+  width: 30%;
+  height:500px ;
 }
 .bonJovi {
-  margin-left: 40px;
+  
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  width: 500px;
+  width: 30%;
+  height:500px ;
 }
 .pink {
-  margin-left: 40px;
+  
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  width: 500px;
+  width: 30%;
+  height:500px ;
 }
 
 .cardRegister {
   margin-top: 50px;
+  justify-content: center;
+  width: 100%;
+  
 }
 
 .createRegister {
@@ -138,9 +149,34 @@
   width: 300px;
 }
 
-/*---Media Queries ------*/
 
-@media screen and (max-width:768px){
+
+/*---Media Queries ------*/
+/*
+@media screen and (max-width:1040){
+  .buttonDiv .createRegister{
+    width: 200px;
+  }
+  
+}
+@media screen and (max-width:850px){
+  .cardTitle{
+    font-size: small;
+  }
+
+  .cardText{
+    font-size: small;
+  }
+
+  .buttonDiv .createRegister{
+    width: 200px;
+  }
+  
+}
+
+*/
+
+@media screen and (max-width:1040px){
 
  .PostUser {
    width: 500px;

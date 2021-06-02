@@ -88,8 +88,8 @@ const Register = () => {
             src="./images/bono.jpeg"
           />
           <Card.Body className="cardBodyHeight">
-            <Card.Title>Bono - U2 </Card.Title>
-            <Card.Text>
+            <Card.Title className = "cardTitle">Bono - U2 </Card.Title>
+            <Card.Text  className = "cardText">
               Thank you Nexus Events for the amazing experience and
               profesinalism.
             </Card.Text>
@@ -104,7 +104,7 @@ const Register = () => {
           />
           <Card.Body className="cardBodyHeight">
             <Card.Title> Bon Jovi </Card.Title>
-            <Card.Text>
+            <Card.Text className = "cardText">
               Everything ran smoothely and the staff were so friendly thanks
             </Card.Text>
           </Card.Body>
@@ -118,16 +118,17 @@ const Register = () => {
           />
           <Card.Body className="cardBodyHeight">
             <Card.Title> Pink </Card.Title>
-            <Card.Text>Just Wow thats all I can say!!!</Card.Text>
+            <Card.Text className = "cardText">Just Wow thats all I can say!!!</Card.Text>
           </Card.Body>
         </Card>
       </div>
 
-      <Card className="registerHeader">
-        <h2> Register to view more events ! </h2>
-      </Card>
-
-      <Card className="cardRegister">
+    
+      
+      
+      
+      
+     <div className = "cardRegister">
         <form className="registerForm" onSubmit={userRegister}>
           <div className="emailDiv">
             <input
@@ -157,7 +158,10 @@ const Register = () => {
             </button>
           </div>
         </form>
-      </Card>
+     
+     
+      </div>
+     
     </div>
   );
 };
